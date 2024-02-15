@@ -10,6 +10,8 @@ jobs:
       - name: Checkout Repo
         id: checkout
         uses: actions/checkout@v4
+      - name: Fix noname function
+        run: sed -Ei -e 's/^function\s\(/function test(/g' *.lua
       - name: Lucheck Linter
         id: lualint
         uses: lunarmodules/luacheck@v1
