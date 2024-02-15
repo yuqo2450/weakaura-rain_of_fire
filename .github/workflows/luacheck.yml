@@ -1,0 +1,15 @@
+name: Lint lua code
+run-name: luacheck
+on:
+  - push
+
+jobs:
+  Lualint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        id: checkout
+        uses: actions/checkout@v4
+      - name: Lucheck Linter
+        id: lualint
+        uses: lunarmodules/luacheck@v1
