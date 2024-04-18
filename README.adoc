@@ -4,13 +4,16 @@
 :hardbreaks-option:
 
 == General
-General info.
+Displays a progress bar after the player casted _rain of fire_. The progressbar will remain until last damage done with rain of fire. The duration is calculated respecting players _haste_.
+The animation of _rain of fire_ might last longer that the actual damage so don't get confused if you can see fire raining after the progressbar finished. The damage is over and you should cast it again.
+
+it is also available at https://wago.io/PSfI0Lpu8[wago.io].
 
 == Usage
 === Install
-How to install.
+To use this aura, copy the string from https://github.com/yuqo2450/weakaura-rain_of_fire/blob/main/wagoio/import.txt[import.txt] and import it in WeakAuras.
 
 === Customize
-Customization options.
+The aura is totally customizable via the WeakAuras GUI, with all default customizations given.
 
 == Known Issues
